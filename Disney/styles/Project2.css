@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* background-color: #16181f */
+}
+nav{
+    position:fixed;
+    width: 5%;
+    height:100%;
+    background-color: #16181f;
+}
+.sidenav{
+    position:relative;
+    
+}
+.logo{
+    
+    width:100%;
+    height:100px;
+}
+.logo img{
+    width:100%;
+    height: 80%;
+    margin-top: 20px;
+}
+.icons{
+    align-content: center;
+}
+.icons ul {
+    margin-top: 100px;
+}
+.icons ul li{
+    list-style-type: none;
+    margin:10px 5px;
+    padding:15px 5px;
+}
+.icons ul li a{
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    opacity: 0.4;
+    font-size:16px; 
+    transition:0.2s;   
+}
+.icons ul li a:hover{
+    opacity: 1;
+}
+.invisble{
+    display:none;
+    position:relative;
+}
+ul li:hover .invisble{
+    display:inline;
+}
+
+aside{
+    margin-left: 5%;
+    width:95%;
+
+}
+.color{
+    background-color: #16181f;
+}
+.banner{
+    position:relative;
+    background-image: linear-gradient(to right, #16181f, transparent);
+    height:500px;
+}
+.banner .trend{
+    font-size: xx-large;
+    position: absolute;
+    top:30px;
+    left:50px;
+    color:white;
+}
+.banner img{
+    height:100%;
+    position: absolute;
+    right:0;
+    top:0;
+
+}
+.banner .play{
+    color: white;
+    position: absolute;
+    bottom:100px;
+    left:70px;
+    font-size: 25px;
+    cursor: pointer;
+     opacity: 0.6; 
+}
+.play:hover{
+    border:1px solid white;
+    opacity: 1;
+    border-radius:10px;
+    padding:10px 5px;
+
+}
+/* images */
+.top-picks{
+    /* background-color: black; */
+    color:rgb(233, 239, 239);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.movies{
+    display: flex;
+    gap:22px;
+}
+.movies img{
+    width: 180px;
+    height:260px;
+    transition:0.3s;
+}
+.movies img:hover{
+    transform:scale(1.2);
+}
+.brands{
+    /* background-color: black; */
+    position:relative;
+    height:300px;
+    /* background-color: blue; */
+}
+.covers{
+    display:flex;
+    gap:50px;
+}
+.marvel-cover,.disney-cover,.pixar-cover,.starwars-cover{
+    width:300px;
+    height: 200px;
+    background-color: black;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    transition:0.2s;
+}
+.marvel-cover{
+    background-repeat: no-repeat;
+    background-image: url(https://th.bing.com/th/id/R.d484e756ff70c1d89f5fcdb27cff5e4e?rik=JmZNGonsb%2fuQNQ&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f86%2f95%2fw0bj2q.jpg&ehk=JdCMvIkXgJLxcYDpSIgYEl1AOOoOalGakOqDSLvZp40%3d&risl=&pid=ImgRaw&r=0);
+    object-fit: cover;
+}
+.disney-cover{
+    background-image: url(https://th.bing.com/th?id=OIP.-6Ud1wpZbWkhj532yZTD3gHaEc&w=322&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2);
+    
+}
+.pixar-cover{
+    background-image: url(https://th.bing.com/th/id/OIP.bNaGr5fuscPoRD51rmTcggHaEK?rs=1&pid=ImgDetMain);
+
+}
+.starwars-cover{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png);
+}
+.marvel-cover:hover{
+    transform:scale(1.2);
+    background-image: url(https://media.giphy.com/media/7oZY66R2feauk/giphy.gif);
+}
+.disney-cover:hover{
+    transform: scale(1.2);
+    background-image: url(https://media.giphy.com/media/oqUuBQaJKQL4I/giphy.gif);
+}
+.pixar-cover:hover{
+    transform: scale(1.2);
+    background-image: url(https://i.gifer.com/1i0R.gif);
+}
+.starwars-cover:hover{
+    transform:scale(1.2);
+    background-image: url(https://th.bing.com/th/id/R.e8910c77ee9e96de02426026f116f707?rik=ksTBcJZJJPNJmg&riu=http%3a%2f%2fmedia2.giphy.com%2fmedia%2f5wikad3qSOqAg%2fgiphy.gif&ehk=nGaXUfjcxlUDikXAqPF9z8NG0uy4hQsAXtBHVD4TuIA%3d&risl=&pid=ImgRaw&r=0);
+}
+.column{
+    column-count: 4;
+}
+.heading{
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    padding:10px;
+    color:white;
+}
+.end{
+    margin-top:20px;
+    padding:10px 0 0 0 ;
+}
+.fa.brands.fa.facebook.f:hover{
+    color:blue;
+}

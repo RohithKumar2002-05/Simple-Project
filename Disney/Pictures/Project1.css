@@ -1,0 +1,151 @@
+
+*:not(.banner){
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #16181f;
+}
+main{
+    display: flex;
+    background-color: #16181f;
+}
+nav{
+    position: relative;
+    
+    width:5%;
+    height: 100vh;
+    background-color: #16181f ;
+    
+}
+.logo{
+    width:100%;
+    height:100px;
+    
+}
+.logo img{
+    width:100%;
+    margin-top: 20px;
+}
+.icons {
+    align-content: center;
+}
+.icons ul{
+        margin-top: 100px;}
+.icons ul li {
+    list-style-type: none;
+    margin: 10px 5px;
+    padding:15px 5px;
+    }
+.icons ul li a {
+    text-align: center;
+    text-decoration: none;
+    color:gray;
+    font-size: 16px;
+    transition:0.2s;
+
+}
+.icons ul li a:hover{
+    color:white;
+    transform: scale(1.3);
+}
+.invisble{
+    display: none;
+    position:relative;
+    text-decoration: none;
+    color: aliceblue;
+    opacity: 0.4;
+
+}
+ul li:hover .invisble {
+    width:10%;
+    display: inline;
+    opacity: 1;
+}
+.banner{
+  background-image:linear-gradient(to right, #16181f, transparent);
+  width:95%;
+  height: 500px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.banner .front-image{
+    position: absolute;
+    right: 0px;
+    top:0;
+    height:100%;}
+
+
+.play{
+    color: white;
+        position: absolute;
+        bottom:100px;
+        left:70px;
+        font-size: 25px;
+        cursor: pointer;
+        /* background-color: white; */
+        
+        opacity: 0.6;
+    }
+
+    .play:hover{
+        border:1px solid grey;
+        border-radius:10px;
+        padding:10px 5px;
+        opacity: 1;
+    }
+
+.trend{
+    color:white;
+}
+
+.new{
+    background-color: #16181f;
+    height: 600px;
+    width:95%;
+    margin-left:5%;
+        position: relative;
+    margin-top: -220px;
+}
+ .top-picks{
+    color:white;
+    margin-left:10px;
+    font-size: larger;
+    margin-top:20px;
+}
+ .movies{
+    position: absolute;
+    display: flex;
+    margin-left:60;
+    gap:20px;
+}
+
+ .movies .top-movies .img-1{
+    width:180px;
+    height: 260px;
+    transition:0.3s
+}
+ .movies .top-movies .img-1:hover{
+    transform: scale(1.2);}
+
+.studio{
+    /* background-color: bisque; */
+    width:95%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top :-200px;
+    position: relative;
+    display: flex;
+    
+}
+.bigImages img{
+    width:300px;
+    height:150px;
+    margin-left: 20px;
+    transition:0.2s;
+  
+}
+.bigImages img:hover{
+    transform: scale(1.2);
+  
+}
